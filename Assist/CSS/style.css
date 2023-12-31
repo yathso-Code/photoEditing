@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color: rgb(231, 229, 229);
+}
+.main{
+   max-width: 900px;
+   height: auto;
+   /* border: 2px solid red; */
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   margin: auto;
+   margin-top: 80px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   border-radius: 5px;
+   background-color: rgb(237, 236, 236);
+}
+
+/* =======================box left start-============================== */
+.main .left_box{
+   max-width: 430px;
+   height: 500px;
+   /* background-color: rgb(30, 0, 255); */
+   margin: 5px;
+}
+.main .left_box h2{
+    color: gray;
+    text-align: center;
+    margin: 10px ;
+}
+.main .left_box .box{
+    border: 1px solid rgb(147, 147, 145);
+    width: 100%;
+    height: 370px;
+    padding: 5px 40px;
+    border-radius: 5px ;
+}
+.main .left_box .box > p{
+    color: rgb(93, 92, 92);
+    margin: 10px 0;
+    font-size: 18px;
+}
+.main .left_box .box .btn1{
+    /* background-color: red; */
+    padding: 5px 20px;
+    width: 170px;
+    font-size: 17px;
+    border: none;
+    border: 2px solid gray;
+    border-radius: 5px 0;
+    /* margin: 5px; */
+}
+.main .left_box .box .active{
+     background-color:rgb(29, 67, 133);
+     color: white;
+}
+.main .left_box .box .range{
+    /* border: 2px solid brown; */
+    margin: 40px 0 ;
+
+}
+.main .left_box .box .range .left{
+      float: left;
+      color: rgb(86, 85, 85);
+}
+.main .left_box .box .range .right{
+    float: right;
+    color: rgb(100, 100, 100);
+}
+.main .left_box .box .range input{
+     width: 100%;
+     height: 5px;
+     margin: 20px 0;
+}
+.main .left_box .box .rotate button{
+    /* background-color: yellowgreen; */
+    width: 60px ;
+    border-radius: 5px 0;
+    border: none;
+    border: 2px solid gray;
+    height: 50px;
+    margin: 0 10px;
+}
+.main .left_box .box .rotate button i{
+    font-size: 20px;
+}
+.main .left_box > button{
+     margin:30px 150px;
+     width: 160px;
+     height: 30px;
+     border: none;
+     border-radius: 6px 0;
+     border: 2px solid gray;
+     font-size: 18px;
+}
+/* =====================box left end================= */
+button{
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(216, 215, 215);
+}
+/* =====================box right start==================== */
+.main .right_box{
+ width: 430px;
+ height: 500px;
+ /* background-color: green; */
+ margin: 5px;
+}
+.main .right_box .img_box{
+    width: 100%;
+    height: 370px;
+    margin-top: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    /* overflow: auto; */
+}
+.main .right_box .img_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+.main .right_box .btn_box button{
+     margin: 30px 34px;
+     width: 100px;
+     height: 30px;
+     border: none;
+     border: 2px solid gray;
+     border-radius: 5px 0;
+}
+#file_btn{
+  background-color: red;
+  
+}
+/* ==========================box right end======================= */
